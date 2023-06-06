@@ -18,9 +18,10 @@ As a scientific work, and in keeping with common scientific practicies, I kindly
 
 
 Abstract
------------------
+--------
 
 We consider four main goals when fitting spatial linear models: 1) estimating covariance parameters, 2) estimating fixed effects, 3) kriging (making point predictions), and 4) block-kriging (predicting the average value over a region).  Each of these goals can present different challenges when analyzing large spatial data sets.  Current research uses a variety of methods, including spatial basis functions (reduced rank), covariance tapering, etc, to achieve these goals.  However, spatial indexing, which is very similar to composite likelihood, offers some advantages.  We develop a simple framework for all four goals listed above by using indexing to create a block covariance structure and nearest-neighbor predictions while maintaining a coherent linear model. We show exact inference for fixed effects under this block covariance construction. Spatial indexing is very fast, and simulations are used to validate methods and compare to another popular method. We study various sample designs for indexing and our simulations showed that indexing leading to spatially compact partitions are best over a range of sample sizes, autocorrelation values, and generating processes.  Partitions can be kept small, on the order of 50 samples per partition.  We use nearest-neighbors for kriging and block kriging, finding that 50 nearest-neighbors is sufficient.  In all cases, confidence intervals for fixed effects, and prediction intervals for (block) kriging, have appropriate coverage. Some advantages of spatial indexing are that it is available for any valid covariance matrix, can take advantage of parallel computing, and easily extends to non-Euclidean topologies, such as stream networks.  We use stream networks to show how spatial indexing can achieve all four goals, listed above, for very large data sets, in a matter of minutes, rather than days, for an example data set.
+
 Installation
 ------------
 
