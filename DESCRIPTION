@@ -1,0 +1,13 @@
+Package: SPIN
+Type: Package
+Title: Indexing and Partitioning the Spatial Linear Model for Large Data Sets
+Version: 1.0.0
+Date: 2023-06-06
+Depends: R (>= 4.2) 
+Imports: viridis, pdist
+Author: Jay Ver Hoef
+Maintainer: Jay Ver Hoef <jay.verhoef@gmail.com>
+Description: Indexing and Partitioning the Spatial Linear Model for Large Data Sets
+License: GPL-2
+LazyLoad: yes
+RoxygenNote: 6.1.1

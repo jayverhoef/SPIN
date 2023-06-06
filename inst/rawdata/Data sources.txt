@@ -1,0 +1,21 @@
+NDVI
+NDVI website:
+https://www.ncei.noaa.gov/data/land-normalized-difference-vegetation-index/access/2022/
+NDVI file: 
+VIIRS-Land_v001-preliminary_NPP13C1_S-NPP_20220312_c20220419232309.nc
+
+DEM
+DEM website:
+https://earthexplorer.usgs.gov/
+DEM file:
+EDNAUSORIGDEM.ZIP
+
+PRECIP
+PRECIP website:
+https://earthexplorer.usgs.gov/
+PRECIP file:
+pr9009p010g_nt00370.tar.gz
+
+ECOREGIONS
+ECOREGIONS website:
+https://github.com/bmcnellis/ClelandEcoregions
